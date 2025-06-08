@@ -27,6 +27,23 @@ Bluum-rasp est un squelette de projet pour une application web 3D. Il associe un
    ```
 6. Open your browser to the provided local address to view the Three.js scene.
 
+This project uses [Jest](https://jestjs.io/) for unit testing.
+
+## Setup
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run tests:
+
+```bash
+npm test
+```
+
+
 ## Contributing
 Contributions are welcome! Please fork the repository and open a pull request with your proposed changes. Be sure to include a clear description of your additions and follow established code conventions.
 
