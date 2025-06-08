@@ -1,10 +1,17 @@
 # Bluum-rasp
 
-## Project Description
-Bluum-rasp is a simple scaffold for a 3D web application. The project combines a Vite front-end that uses Three.js for rendering with an Express.js back-end server. It is intended as a starting point for interactive visualizations that can run on lightweight devices such as the Raspberry Pi.
+## Concept
 
-## Description du projet
-Bluum-rasp est un squelette de projet pour une application web 3D. Il associe un front-end Vite utilisant Three.js pour l'affichage et un serveur Express.js pour l'API. Ce dépôt sert de base pour créer des visualisations interactives capables de fonctionner sur des appareils légers comme le Raspberry Pi.
+Bluum est un life-sim contemplatif : un diorama 3D isométrique rétro où des formes de vie abstraites poussent, mutent et se sélectionnent en continu, même lorsque personne ne regarde. Le joueur agit en simple observateur ; toute la magie vient d’une simulation génétique et énergétique qui s’auto-régule pour offrir un spectacle organique hypnotisant.
+
+### Pourquoi c’est excitant
+
+| Atout | Impact |
+| ----- | ------ |
+| Émergence visuelle | la vie change vraiment à chaque partie, attache émotionnelle immédiate |
+| Persistance serveur | le monde continue d’évoluer 24 h/24 sur un Raspberry Pi |
+| Esthétique rétro-low-poly | look PS1 / voxel avec HUD pixel-art ✔️ |
+| Architecture modulaire | front Three.js ↔ back Node/WebSocket ; facile à étendre (multi-mondes, events, etc.) |
 
 ## Running Locally
 1. Install [Node.js](https://nodejs.org/).
