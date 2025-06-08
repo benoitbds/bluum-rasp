@@ -1,16 +1,17 @@
 {
   "name": "bluum-rasp",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "dev": "concurrently \"npm run --prefix backend dev\" \"npm run --prefix frontend dev\"",
+    "build": "npm run --prefix frontend build && npm run --prefix backend build",
+    "test": "jest",
+    "start": "node backend/index.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "devDependencies": {
+    "concurrently": "^8.0.1",
     "jest": "^29.6.1"
   },
   "jest": {
