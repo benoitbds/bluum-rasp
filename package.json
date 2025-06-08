@@ -1,0 +1,13 @@
+{
+  "name": "bluum-rasp",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm run --prefix backend dev\" \"npm run --prefix frontend dev\"",
+    "build": "npm run --prefix frontend build && npm run --prefix backend build",
+    "start": "node backend/index.js"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  }
+}

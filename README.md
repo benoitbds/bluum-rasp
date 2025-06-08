@@ -31,4 +31,5 @@ Bluum-rasp est un squelette de projet pour une application web 3D. Il associe un
 Contributions are welcome! Please fork the repository and open a pull request with your proposed changes. Be sure to include a clear description of your additions and follow established code conventions.
 
 ## License
+
 This project is licensed under the [MIT License](LICENSE).
