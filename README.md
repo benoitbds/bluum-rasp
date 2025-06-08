@@ -19,3 +19,6 @@ The frontend will be served via Vite and the backend via Express.
 npm run build
 npm start
 ```
+## License
+
+This project is licensed under the [MIT License](LICENSE).
